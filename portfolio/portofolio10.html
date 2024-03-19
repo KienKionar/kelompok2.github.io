@@ -10,7 +10,6 @@
     <title>Kelompok 2 | Portofolio</title>
     <style>
         .nap li.actip a {
-            border-top: 2px solid black;
             border-bottom: 2px solid black;
             width: 65px;
             margin: 1px;
@@ -57,17 +56,17 @@
                 <ul
                     class="menufont-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  ">
                     <li class="actip">
-                        <a href="#home"
-                            class="cursor-pointer transition ease-in-out text-center  block py-2 px-3 text-gray-900 rounded hover:text-sky-500 md:p-0">Home</a>
+                        <a href="../index.html"
+                            class="cursor-pointer transition ease-in-out text-center  block py-2 px-3 text-gray-900 hover:text-sky-500 md:p-0">Home</a>
                     </li>
                     <li class="actip">
                         <a href="#desc"
-                            class="cursor-pointer transition ease-in-out block py-2 px-3 text-gray-900 rounded hover:text-sky-500 md:p-0">Project</a>
+                            class="cursor-pointer transition ease-in-out block py-2 px-3 text-gray-900 hover:text-sky-500 md:p-0">Project</a>
                     </li>
 
                     <li class="actip">
                         <a href="#contact"
-                            class="cursor-pointer transition ease-in-out block py-2 px-3 text-gray-900 rounded hover:text-sky-500 md:p-0">Contact</a>
+                            class="cursor-pointer transition ease-in-out block py-2 px-3 text-gray-900 hover:text-sky-500 md:p-0">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -88,14 +87,14 @@
         <!-- =-=-= -->
 
         <!-- Carousel Start -->
-        <section id="desc" class="h-screen">
-            <div class="bg-gray-200 w-32 h-14 text-3xl uppercase font-semibold tracking-[.25rem] pt-2 rounded-r-full">
+        <section id="desc" class="h-screen pb-16">
+            <div class="bg-gray-200 w-48 h-14 text-3xl uppercase font-semibold tracking-[.25rem] pt-2 rounded-r-full">
                 <p class="pl-3">Senja</p>
             </div>
 
-            <div id="default-carousel" class="relative h-auto max-w-5xl mx-auto  py-16" data-carousel="slide">
+            <div id="default-carousel" class="relative h-full max-w-5xl mx-auto  py-16" data-carousel="slide">
                 <!-- Carousel wrapper -->
-                <div class="relative h-max overflow-hidden rounded-lg shadow-lg md:h-96">
+                <div class="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <!-- Item 1 -->
                     <div class="hidden duration-700 ease-in-out " data-carousel-item>
                         <img src="../src/img/card10/1.png"
@@ -148,51 +147,53 @@
         <!-- Carousel End -->
 
         <!-- About Start -->
-        <section id="about" class="h-full rounded-xl mx-auto max-w-6xl bg-white shadow-lg">
-            <div class="grid grid-rows-3 grid-flow-col gap-4  h-full p-14 rounded-xl">
-                <div class="row-span-3">
-                    <figure class="max-w-lg bg-gray-200 py-20 rounded-xl mx-auto">
-                        <img class="h-auto max-w-full mx-auto rounded-lg" src="../src/img/ara.png"
-                            alt="image description">
-                        <figcaption class="mt-3 text-xl pb-3 text-center font-semibold">Ara
+        <section id="about" class="h-full rounded-xl mx-auto max-w-5xl bg-white shadow-lg">
+            <div class="grid grid-flow-col gap-4 auto-rows-min p-14 rounded-xl">
+                <div class="row-span-3 text-lg">
+                    <figure class="max-w-lg bg-gray-200 py-12 rounded-xl mx-auto pt-6 text-center">
+                        <img class="max-w-full mx-auto rounded-lg" src="../src/img/ara.png" alt="image description">
+                        <figcaption class="mt-3 text-2xl pb-3 text-center font-semibold">Ara
                         </figcaption>
-                        <figcaption class="px-3">Nama: Nismara Syahda</figcaption>
-                        <figcaption class="px-3">Asal: SMK Telkom Malang</figcaption>
-                        <figcaption class="px-3">Telepon: 0895809092050</figcaption>
-                        <figcaption class="px-3">Linkedin: <a href="www.linkedin.com/in/nismarasyahda14"
-                                class="hover:text-blue-700 transition ease-in-out underline">Nismara Syahda</a>
-                        </figcaption>
+                        <div class="mt-3">
+                            <figcaption class="px-3">Nama: Nismara Syahda</figcaption>
+                            <figcaption class="px-3">Asal: SMK Telkom Malang</figcaption>
+                            <figcaption class="px-3">Telepon: 0895809092050</figcaption>
+                            <figcaption class="px-3">Linkedin: <a href="www.linkedin.com/in/nismarasyahda14"
+                                    class="hover:text-blue-700 transition ease-in-out underline">Nismara Syahda</a>
+                            </figcaption>
+                        </div>
                         <figcaption class="px-3">Email: nismarasyahda14@gmail.com</figcaption>
                     </figure>
 
                 </div>
-                <div class="col-span-2 bg-gray-200 rounded-xl h-full py-3">
+                <div class="col-span-2 bg-gray-200 rounded-xl py-3">
                     <h1 class="underline text-center font-bold text-2xl p-3">Deskripsi</h1>
-                    <figure class="max-w-lg mx-auto">
-                        </figcaption>
+                    <figure class="max-w-lg mx-auto text-center">
                         <figcaption class="text-center pb-3">Foto ini menggambarkan suasana senja yang memukau, di mana
                             langit dipenuhi warna-warna hangat yang membara. Dalam gambar
                             ini, sinar matahari terbenam menyinari langit dengan warna jingga, merah muda, dan oranye
                             yang lembut, menciptakan
                             pemandangan yang memikat dan mempesona.</figcaption>
-                        <ul>
+                        <ul class="text-start">
                             <p>Teknik yang dapat dilakukan:</p>
-                            <li>1. Pencahayaan dan Eksposur</li>
-                            <li>2. Komposisi</li>
-                            <li>3. Pemilihan Waktu</li>
-                            <li>4. Pemrosesan Digital</li>
+                            <div class="grid grid-cols-2">
+                                <li>1. Pencahayaan dan Eksposur</li>
+                                <li>3. Pemilihan Waktu</li>
+                                <li>2. Komposisi</li>
+                                <li>4. Pemrosesan Digital</li>
+                            </div>
                         </ul>
                     </figure>
                 </div>
-                <div class="row-span-2 col-span-2 bg-gray-200 rounded-full mx-auto w-full h-32">
-                    <div class="max-w-lg py-5 mx-auto flex">
-                        <svg class="w-20 h-20 text-gray-800 dark:text-white" aria-hidden="true"
+                <div class="row-span-2 col-span-2 bg-gray-200 rounded-full mx-auto w-full h-14 mt-1">
+                    <div class="max-w-lg py-2 mx-auto flex justify-center">
+                        <svg class="w-10 h-10 text-gray-800 dark:text-white" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                             <path fill-rule="evenodd"
                                 d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.6 4.6c1.2 1.5 2 3.4 2 5.3-2-.4-4-.4-6-.2l-.2-.5-.6-1.2c1.9-.7 3.5-1.9 4.8-3.4ZM10 3.7l2-.2c2 0 4.1.7 5.7 2.1a9.6 9.6 0 0 1-4.5 3.1c-1-1.7-2-3.4-3.2-5Zm-6.4 6.6a8.6 8.6 0 0 1 4.8-6 54 54 0 0 1 3.1 5 32 32 0 0 1-7.9 1Zm2 7.4a8.5 8.5 0 0 1-2-5.7v-.2c3 0 5.9-.5 8.7-1.3L13 12h-.3a14.5 14.5 0 0 0-7 5.7Zm6.4 2.9c-1.9 0-3.7-.7-5.2-1.8a11.7 11.7 0 0 1 6.7-5.4c.8 2.1 1.4 4.3 1.8 6.5-1 .4-2.2.7-3.3.7Zm4.8-1.5c-.4-2-1-4.1-1.7-6.1 1.8-.3 3.6-.1 5.3.4a8.6 8.6 0 0 1-3.6 5.7Z"
                                 clip-rule="evenodd" />
                         </svg>
-                        <p class="py-6 font-semibold text-2xl hover:text-blue-800 transition ease-in-out underline">
+                        <p class="py-2 px-3 font-semibold text-lg hover:text-blue-800 transition ease-in-out underline">
                             <a class="cursor-pointer" href="https://dribbble.com/nismarasyhd">:
                                 https://dribbble.com/nismarasyhd</a>
                         </p>

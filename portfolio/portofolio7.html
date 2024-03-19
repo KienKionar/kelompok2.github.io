@@ -10,7 +10,6 @@
     <title>Kelompok 2 | Portofolio</title>
     <style>
         .nap li.actip a {
-            border-top: 2px solid black;
             border-bottom: 2px solid black;
             width: 65px;
             margin: 1px;
@@ -60,17 +59,17 @@
                 <ul
                     class="menufont-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  ">
                     <li class="actip">
-                        <a href="#home"
-                            class="cursor-pointer transition ease-in-out text-center  block py-2 px-3 text-gray-900 rounded hover:text-sky-500 md:p-0">Home</a>
+                        <a href="../index.html"
+                            class="cursor-pointer transition ease-in-out text-center  block py-2 px-3 text-gray-900 hover:text-sky-500 md:p-0">Home</a>
                     </li>
                     <li class="actip">
                         <a href="#desc"
-                            class="cursor-pointer transition ease-in-out block py-2 px-3 text-gray-900 rounded hover:text-sky-500 md:p-0">Project</a>
+                            class="cursor-pointer transition ease-in-out block py-2 px-3 text-gray-900 hover:text-sky-500 md:p-0">Project</a>
                     </li>
 
                     <li class="actip">
                         <a href="#contact"
-                            class="cursor-pointer transition ease-in-out block py-2 px-3 text-gray-900 rounded hover:text-sky-500 md:p-0">Contact</a>
+                            class="cursor-pointer transition ease-in-out block py-2 px-3 text-gray-900 hover:text-sky-500 md:p-0">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -91,17 +90,17 @@
         <!-- =-=-= -->
 
         <!-- Carousel Start -->
-        <section id="desc" class="h-screen">
+        <section id="desc" class="h-screen pb-16">
             <div class="bg-gray-200 w-60 h-24 text-3xl uppercase font-semibold tracking-[.25rem] pt-2 rounded-r-full">
                 <p class="pl-3">Kasir Cafe</p>
             </div>
 
-            <div id="default-carousel" class="relative h-auto max-w-5xl mx-auto  py-16" data-carousel="slide">
+            <div id="default-carousel" class="relative h-full max-w-5xl mx-auto  py-16" data-carousel="slide">
                 <!-- Carousel wrapper -->
-                <div class="relative h-max overflow-hidden rounded-lg shadow-lg md:h-96">
+                <div class="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <!-- Item 1 -->
                     <div class="hidden duration-700 ease-in-out " data-carousel-item>
-                        <img src="../src/img/card6/1.png"
+                        <img src="../src/img/card6/5.png"
                             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                     </div>
                     <!-- Item 2 -->
@@ -111,7 +110,7 @@
                     </div>
                     <!-- Item 3 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="../src/img/card6/3.png"
+                        <img src="../src/img/card6/4.png"
                             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                     </div>
 
@@ -151,28 +150,29 @@
         <!-- Carousel End -->
 
         <!-- About Start -->
-        <section id="about" class="h-full rounded-xl mx-auto max-w-6xl bg-white shadow-lg">
-            <div class="grid grid-rows-3 grid-flow-col gap-4  h-full p-14 rounded-xl">
-                <div class="row-span-3">
-                    <figure class="max-w-lg bg-gray-200 py-20 rounded-xl mx-auto">
+        <section id="about" class="h-full rounded-xl mx-auto max-w-5xl bg-white shadow-lg">
+            <div class="grid grid-flow-col gap-4 auto-rows-min p-14 rounded-xl">
+                <div class="row-span-3 text-lg">
+                    <figure class="max-w-lg bg-gray-200 py-20 rounded-xl mx-auto pt-6">
                         <img class="h-auto max-w-full mx-auto rounded-lg" src="../src/img/orin.png"
                             alt="image description">
-                        <figcaption class="mt-3 text-xl pb-3 text-center font-semibold">Orin
+                        <figcaption class="mt-3 text-2xl pb-3 text-center font-semibold">Orin
                         </figcaption>
-                        <figcaption class="px-3">Nama: Orin Zahara</figcaption>
-                        <figcaption class="px-3">Asal: SMK Telkom Malang</figcaption>
-                        <figcaption class="px-3">Telepon: 081335928246</figcaption>
-                        <figcaption class="px-3">Linkedin: <a href="www.linkedin.com/in/orinzahara"
-                                class="hover:text-blue-700 transition ease-in-out underline">Orin Zahara</a>
-                        </figcaption>
-                        <figcaption class="px-3">Email: orinzahara14@gmail.com</figcaption>
+                        <div class="mt-5 text-center">
+                            <figcaption class="px-3">Nama: Orin Zahara</figcaption>
+                            <figcaption class="px-3">Asal: SMK Telkom Malang</figcaption>
+                            <figcaption class="px-3">Telepon: 081335928246</figcaption>
+                            <figcaption class="px-3">Linkedin: <a href="www.linkedin.com/in/orinzahara"
+                                    class="hover:text-blue-700 transition ease-in-out underline">Orin Zahara</a>
+                            </figcaption>
+                            <figcaption class="px-3">Email: orinzahara14@gmail.com</figcaption>
+                        </div>
                     </figure>
 
                 </div>
-                <div class="col-span-2 bg-gray-200 rounded-xl h-full py-3">
+                <div class="col-span-2 bg-gray-200 rounded-xl py-3">
                     <h1 class="underline text-center font-bold text-2xl p-3">Deskripsi</h1>
-                    <figure class="max-w-lg mx-auto">
-                        </figcaption>
+                    <figure class="max-w-lg mx-auto text-center">
                         <figcaption class="text-center pb-3">Kasir Cafe adalah website yang dirancang untuk melakukan
                             transaksi di kafe. Website ini menggunakan framework React.js untuk bagian frontend dan
                             Node.js untuk bagian backend. Dengan menggunakan teknologi-teknologi ini, Kasir Cafe dapat
@@ -180,17 +180,17 @@
                         </figcaption>
                     </figure>
                 </div>
-                <div class="row-span-2 col-span-2 bg-gray-200 rounded-full mx-auto w-full h-32">
-                    <div class="max-w-lg py-5 mx-auto flex">
-                        <svg class="w-20 h-20 text-gray-800 dark:text-white" aria-hidden="true"
+                <div class="row-span-2 col-span-2 bg-gray-200 rounded-full mx-auto w-full h-14">
+                    <div class="max-w-lg py-2 mx-auto flex justify-center">
+                        <svg class="w-10 h-10 text-gray-800 dark:text-white" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                             <path fill-rule="evenodd"
                                 d="M12 2c-2.4 0-4.7.9-6.5 2.4a10.5 10.5 0 0 0-2 13.1A10 10 0 0 0 8.7 22c.5 0 .7-.2.7-.5v-2c-2.8.7-3.4-1.1-3.4-1.1-.1-.6-.5-1.2-1-1.5-1-.7 0-.7 0-.7a2 2 0 0 1 1.5 1.1 2.2 2.2 0 0 0 1.3 1 2 2 0 0 0 1.6-.1c0-.6.3-1 .7-1.4-2.2-.3-4.6-1.2-4.6-5 0-1.1.4-2 1-2.8a4 4 0 0 1 .2-2.7s.8-.3 2.7 1c1.6-.5 3.4-.5 5 0 2-1.3 2.8-1 2.8-1 .3.8.4 1.8 0 2.7a4 4 0 0 1 1 2.7c0 4-2.3 4.8-4.5 5a2.5 2.5 0 0 1 .7 2v2.8c0 .3.2.6.7.5a10 10 0 0 0 5.4-4.4 10.5 10.5 0 0 0-2.1-13.2A9.8 9.8 0 0 0 12 2Z"
                                 clip-rule="evenodd" />
                         </svg>
-                        <p class="py-6 font-semibold text-2xl hover:text-blue-800 transition ease-in-out underline">
-                            <a class="cursor-pointer" href="https://github.com/rinnzr ">:
-                                https://github.com/rinnzr </a>
+                        <p class="py-2 px-3 font-semibold text-lg hover:text-blue-800 transition ease-in-out underline">
+                            <a class="cursor-pointer" href="https://github.com/rinnzr">:
+                                https://github.com/rinnzr</a>
                         </p>
                     </div>
                 </div>
